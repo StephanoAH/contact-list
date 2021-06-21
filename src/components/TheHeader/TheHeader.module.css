@@ -1,0 +1,13 @@
+.Container {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  border-bottom: 1px solid #afafaf8c;
+}
+
+.Title {
+  font-weight: 300;
+}
