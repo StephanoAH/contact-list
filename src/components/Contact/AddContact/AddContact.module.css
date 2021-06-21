@@ -1,0 +1,61 @@
+.Container {
+  width: 50%;
+  min-width: 19em;
+  margin: 0 auto;
+}
+
+.Title {
+  padding: 0.5em 0;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.Input {
+  font-size: 1rem;
+  padding: 0.5em 0.3em;
+  margin: 0.4em 0;
+  border: 1px solid rgba(154, 154, 154, 0.6);
+  border-radius: 5px;
+  outline: none;
+  transition: all 200ms ease-in-out;
+}
+
+.Input::placeholder {
+  color: rgba(154, 154, 154, 1);
+}
+
+.Input:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(90, 48, 214);
+}
+
+.AddBtn {
+  width: 9em;
+  padding: 0.8em;
+  margin: 1em auto;
+  border: none;
+  border-radius: 100px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: all 240ms ease-in-out;
+  background: rgb(90, 48, 214);
+  background: linear-gradient(
+    90deg,
+    rgba(90, 48, 214, 1) 20%,
+    rgba(32, 98, 189, 1) 100%
+  );
+}
+
+.AddBtn:hover {
+  filter: brightness(1.03);
+}
